@@ -116,6 +116,9 @@ button {
     border-top: 6px solid #4aaaa5;
 }
 
+/*  Media query for 980px screen
+    Didn't seem to have too many problems with this one */
+
 @media screen and (max-width: 980px) {
     .textBlock {
         width: 675px;
@@ -134,6 +137,9 @@ button {
         list-style-type: none;
     }
 }
+
+/*  Media query for 768px screen
+    - Coundn't figure out how to center the images and card titles on portfolio.html without throwing the titles off */
 
   @media screen and (max-width: 768px) {
     .textBlock {
@@ -161,6 +167,11 @@ button {
         color: white;
     }
   }
+
+/*  Media query for 640px screen
+    - Coundn't figure out how to center the images and card titles on portfolio.html without throwing the titles off 
+    - Had trouble centering "About|Portfolio|Contract" in the header, and have them remain in a horizontal layout
+    - Couldn't get rid of margins on around the background around "Clayton Bondy" in the header*/
 
   @media screen and (max-width: 640px) {
 
